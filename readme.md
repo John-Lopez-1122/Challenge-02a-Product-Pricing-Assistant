@@ -1,0 +1,1 @@
+Here is a simple js coding assignment. Took approximately 1 hour from start to finish. Now to move to Assign 2. Please feel free to message me at any time using my email: johnplopez123@gmail.com or through Github. Thank you!
