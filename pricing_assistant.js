@@ -8,9 +8,9 @@ const fixedMonthlyCost = 2923
 
 // Pricing/cost metrics
 let discountedPrice = basePrice * (1 - discountRate)
-let finalPriceWithTax = discountedPrice * (1 - salesTaxRate)
+let finalPriceWithTax = discountedPrice * (1 + salesTaxRate)
 let profitPerUnit = finalPriceWithTax -costPerUnit
-let breakEvenUnits = math.ciel(fixedMonthlyCost / profitPerUnit)
+let breakEvenUnits = Math.ceil(fixedMonthlyCost / profitPerUnit)
 let isProfitablePerUnit = profitPerUnit > 0
 
 //END: console test
